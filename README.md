@@ -105,7 +105,7 @@ Using the auto arima function, we found that the optimal model is ARIMA(2,0,0). 
 
 We checked for correlations between the time lags using the Auto-Correlation Function (ACF) and the Partial Auto-Correlation Function (PACF). This prevents our model from over-fitting and becoming unreliable. We can see that none of the lags exceeded the significance region and we can conclude at the 5% significance level, there is no auto-correlation present. This suggests that our model is good enough with ARIMA (2,0,0) and we can use it to predict the number of trips for the next 6 months. 
 
-![picture](9.jpg)
+![picture](9.JPG)
 
 From the shaded region, we can see that the forecasted demand seems to decrease from the last-known value and begins flat-line a little. Therefore, it seems that demand is not expected to rise higher than the last-known value for the next 6 months. 
 
