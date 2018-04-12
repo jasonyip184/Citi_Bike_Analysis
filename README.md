@@ -84,13 +84,13 @@ The Panel Data model assumes a multi-linear relationship between the variables. 
 ```Duration = -0.126443*Age + 2.159205*Precipitation + 0.160708*SnowDepth + 0.052117*MaxTemp + 14.528680```
 
 This suggests that:
-An increase in Age by 1 year results in a decrease in trip duration by 0.126443*60 = 7.6s.
+An increase in Age by 1 year results in a decrease in trip duration by ~0.13s.
 
-An increase in Daily Precipitation by 1 inch results in an increase in trip duration by 2.2mins.
+An increase in Daily Precipitation by 1 inch results in an increase in trip duration by ~2.2s.
 
-An increase in Daily Snow Depth by 1 inch results in an increase in trip duration by 9.6s.
+An increase in Daily Snow Depth by 1 inch results in an increase in trip duration by ~0.16s.
 
-An increase in Daily Max Temperature by 1F results in an increase in trip duration by 3.1s.
+An increase in Daily Max Temperature by 1F results in an increase in trip duration by ~0.05s.
 
 **Since prices of rides could be determined by trip duration. This could help Citi Bike with dynamic pricing and fine-tuning their algorithm for calculating price per unit duration based on daily weather conditions and the profile of their riders.**
 
